@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<myAnimeList total="3">
+    <anime IMDB="0112159">
+        <title language="JP">新世紀エヴァンゲリオン</title>
+        <title language="EN">Neon Genesis Evangelion</title>
+        <year>1995</year>
+        <episodes>26</episodes>
+    </anime>
+    <anime IMDB="0480489">
+        <title language="JP">エルフェンリート</title>
+        <title language="EN">Elfen Lied</title>
+        <year>2004</year>
+        <episodes>13</episodes>
+    </anime>
+    <anime IMDB="1355642">
+        <title language="JP">鋼の錬金術師 FULLMETAL ALCHEMIST</title>
+        <title language="EN">Fullmetal Alchemist: Brotherhood</title>
+        <year>2009</year>
+        <episodes>64</episodes>
+    </anime>
+</myAnimeList>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<myAnimeList>
+    <completed total="3">
+        <anime IMDB="0877057">
+            <title language="JP">デスノート</title>
+            <title language="EN">Death Note</title>
+            <year>2006</year>
+            <episodes>37</episodes>
+        </anime>
+        <anime IMDB="0765491">
+            <title language="JP">交響詩篇エウレカセブン</title>
+            <title language="EN">Eureka Seven</title>
+            <year>2005</year>
+            <episodes>50</episodes>
+        </anime>
+        <anime IMDB="0315008">
+            <title language="JP">グレート・ティーチャー・オニヅカ</title>
+            <title language="EN">Great Teacher Onizuka</title>
+            <year>1999</year>
+            <episodes>43</episodes>
+        </anime>
+    </completed>
+    <watching total="2">
+        <anime IMDB="1158671">
+            <title language="JP">狼と香辛料</title>
+            <title language="EN">Spice and Wolf</title>
+            <year>2008</year>
+            <episodes>13</episodes>
+        </anime>
+        <anime IMDB="0948103">
+            <title language="JP">天元突破グレンラガン</title>
+            <title language="EN">Gurren Lagann</title>
+            <year>2007</year>
+            <episodes>27</episodes>
+        </anime>
+    </watching>
+</myAnimeList>
