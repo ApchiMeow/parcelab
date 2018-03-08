@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="9.0.4" class="java.beans.XMLDecoder">
+ <object class="com.apchimeow.lab.XMLtoOBJ.Character">
+  <void property="doc">
+   <object class="java.util.Date">
+    <long>1520460000000</long>
+   </object>
+  </void>
+  <void property="inventory">
+   <array class="java.lang.String" length="3">
+    <void index="0">
+     <string>Броня</string>
+    </void>
+    <void index="1">
+     <string>Оружие</string>
+    </void>
+    <void index="2">
+     <string>Монеты</string>
+    </void>
+   </array>
+  </void>
+  <void property="level">
+   <int>5</int>
+  </void>
+  <void property="nickName">
+   <string>myNick</string>
+  </void>
+  <void property="profa">
+   <object class="com.apchimeow.lab.XMLtoOBJ.CharClass">
+    <void property="hp">
+     <int>150</int>
+    </void>
+    <void property="mp">
+     <int>250</int>
+    </void>
+    <void property="p">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>com.apchimeow.lab.XMLtoOBJ.CharClass$profa</class>
+      <string>MAG</string>
+     </object>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
