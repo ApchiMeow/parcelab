@@ -19,21 +19,25 @@ public class JsonParce {
         try {
 
             Object obj = parser.parse(new FileReader("src/main/resources/myGamesList.json"));
-
             JSONObject jsonObject = (JSONObject) obj;
-            System.out.println(jsonObject);
+//            System.out.println(jsonObject);
 
-            String name = (String) jsonObject.get("games");
-            System.out.println(name);
+            JSONArray games = (JSONArray)jsonObject.get("games");
 
-            long age = (Long) jsonObject.get("age");
-            System.out.println(age);
-
-            // loop array
-            JSONArray msg = (JSONArray) jsonObject.get("messages");
-            Iterator<String> iterator = msg.iterator();
-            while (iterator.hasNext()) {
-                System.out.println(iterator.next());
+            Iterator<JSONObject> it = games.iterator();
+            while (it.hasNext()) {
+                JSONObject o = it.next();
+                String title = (String) o.get("title");
+                System.out.println("Title : " + title);
+                long year = (Long) o.get("year");
+                System.out.println("Year : " + year);
+                System.out.println("Platforms : ");
+                JSONArray arr = (JSONArray) o.get("platforms");
+                Iterator<String> iterator = arr.iterator();
+                while (iterator.hasNext()) {
+                    System.out.println("\t" + iterator.next());
+                }
+                System.out.println("----------------------------");
             }
 
         } catch (FileNotFoundException e) {
@@ -45,5 +49,4 @@ public class JsonParce {
         }
 
     }
-
 }
