@@ -1,7 +1,6 @@
-package com.apchimeow.lab.CSV_TXT;
+package com.apchimeow.lab.CSV;
 
 import java.util.ArrayList;
-import java.util.Date;
 
 public class ValCurs {
     private String date;

@@ -1,4 +1,4 @@
-package com.apchimeow.lab.CSV_TXT;
+package com.apchimeow.lab.CSV;
 
 import com.opencsv.CSVReader;
 import org.apache.poi.ss.usermodel.Row;

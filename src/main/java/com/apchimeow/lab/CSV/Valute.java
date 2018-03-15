@@ -1,4 +1,4 @@
-package com.apchimeow.lab.CSV_TXT;
+package com.apchimeow.lab.CSV;
 
 public class Valute {
     private int ID;
